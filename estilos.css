@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #e6d8e2;
+  }
+  
+  .titulo {
+    font-size: clamp(4rem, 10vw, 11rem);
+    font-family: 'Great Vibes', cursive;
+    letter-spacing: -5px;
+    line-height: 1;
+    text-align: center;
+  }
+  
+  .titulo .parte1 {
+    color: #9152b6;
+  }
+  
+  .titulo .parte2 {
+    color: #584f4f;
+  }
+  
+  @keyframes parpadeo {
+    0%, 100% { opacity: 10; }
+    50% { opacity: 0.5; }
+  }
+  
+  .stars {
+    font-size: 3rem;
+    color: #a556b4;
+    margin: 10px 0;
+    animation: parpadeo 2s infinite ease-in-out;
+  }
+  
+  .autor {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    color: #555;
+    font-family: sans-serif;
+  }
+  
+  a.btn-ver-mas {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 12px 28px;
+    background-color: #c48fef;
+    color: rgb(78, 66, 107);
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 30px;
+    font-family: sans-serif;
+    transition: background-color 0.3s ease;
+  }
+  
+  a.btn-ver-mas:hover {
+    background-color: #ab71c5;
+  }
+  
+  @media (max-width: 768px) {
+    .titulo {
+      letter-spacing: -2px;
+    }
+    .stars {
+      font-size: 2rem;
+    }
+  }
+  
