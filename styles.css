@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+header {
+  background-color: #c8a1b5;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  border-bottom: 5px solid #b35d8c;
+}
+
+header h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+header h1 span {
+  font-weight: 600;
+}
+
+header h2 {
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: normal;
+}
+
+header p {
+  font-size: 14px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+section {
+  padding: 20px 30px;
+  border-bottom: 1px solid #ccc;
+}
+
+h3 {
+  border-bottom: 2px solid black;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.perfil-contenido {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.perfil-contenido img {
+  width: 350px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  
+}
+
+.habilidades ul {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  padding-left: 20px;
+}
+
+.habilidades li {
+  margin-bottom: 8px;
+}
+
+.formacion p {
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 600px) {
+  header h1 {
+    font-size: 22px;
+  }
+
+  header h2 {
+    font-size: 16px;
+  }
+
+  .perfil-contenido {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .perfil-contenido img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .habilidades ul {
+    columns: 1;
+    padding-left: 10px;
+  }
+
+  section {
+    padding: 15px 20px;
+  }
+}

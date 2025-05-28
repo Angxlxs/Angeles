@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #c8a1b5;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+header p {
+  margin: 10px 0 0;
+  font-size: 18px;
+}
+
+.proyectos {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.proyectos h2 {
+  font-size: 26px;
+  margin-bottom: 30px;
+  color: #444;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.tarjeta {
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  width: 340px;
+  box-shadow: 0 8px 20px rgba(160, 79, 184, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tarjeta:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(154, 53, 155, 0.307);
+}
+
+.tarjeta img {
+  width: 105%;
+  height: 390px;
+  object-fit: cover;
+}
+
+.tarjeta .info {
+  padding: 15px;
+  text-align: left;
+  padding: 20px;
+}
+
+.tarjeta .info h3 {
+  margin: 0 0 10px;
+  font-size: 20px;
+  color: #a45b7d;
+}
+
+.tarjeta .info p {
+  font-size: 15px;
+  color: #555;
+}
+
+.ver-mas {
+  margin-top: 40px;
+}
+
+.ver-mas a {
+  text-decoration: none;
+  background-color: #a45b7d;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.ver-hoja {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.ver-hoja a {
+  text-decoration: none;
+  background-color: #b785b2;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.ver-hoja a:hover {
+  background-color: #4e104e;
+}
+
+
+/* Responsivo */
+@media screen and (max-width: 700px) {
+  .galeria {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tarjeta {
+    width: 90%;
+  }
+}
