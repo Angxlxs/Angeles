@@ -20,11 +20,11 @@ body {
   }
   
   .titulo .parte1 {
-    color: #9152b6;
+    color: #b35d8c;
   }
   
   .titulo .parte2 {
-    color: #584f4f;
+    color: #564950;
   }
   
   @keyframes parpadeo {
@@ -34,7 +34,7 @@ body {
   
   .stars {
     font-size: 3rem;
-    color: #a556b4;
+    color: #b35d8c;
     margin: 10px 0;
     animation: parpadeo 2s infinite ease-in-out;
   }
@@ -50,8 +50,8 @@ body {
     display: inline-block;
     margin-top: 40px;
     padding: 12px 28px;
-    background-color: #c48fef;
-    color: rgb(78, 66, 107);
+    background-color: #e19fc4;
+    color: rgb(244, 244, 244);
     font-weight: 600;
     text-decoration: none;
     border-radius: 30px;
@@ -60,7 +60,7 @@ body {
   }
   
   a.btn-ver-mas:hover {
-    background-color: #ab71c5;
+    background-color: #b35d8c;
   }
   
   @media (max-width: 768px) {
